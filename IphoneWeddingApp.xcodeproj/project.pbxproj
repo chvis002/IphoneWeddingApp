@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233261B1DBEB8001BD3DF /* AppDelegate.swift */; };
+		C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233281B1DBEB8001BD3DF /* ViewController.swift */; };
+		C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C142332A1B1DBEB8001BD3DF /* Main.storyboard */; };
+		C142332E1B1DBEB8001BD3DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C142332D1B1DBEB8001BD3DF /* Images.xcassets */; };
+		C14233311B1DBEB8001BD3DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142332F1B1DBEB8001BD3DF /* LaunchScreen.xib */; };
+		C142333D1B1DBEB8001BD3DF /* IphoneWeddingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142333C1B1DBEB8001BD3DF /* IphoneWeddingAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C14233371B1DBEB8001BD3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C14233191B1DBEB8001BD3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C14233201B1DBEB8001BD3DF;
+			remoteInfo = IphoneWeddingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneWeddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14233251B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14233261B1DBEB8001BD3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C14233281B1DBEB8001BD3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C142332B1B1DBEB8001BD3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C142332D1B1DBEB8001BD3DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C14233301B1DBEB8001BD3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C14233361B1DBEB8001BD3DF /* IphoneWeddingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IphoneWeddingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C142333B1B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C142333C1B1DBEB8001BD3DF /* IphoneWeddingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneWeddingAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C142331E1B1DBEB8001BD3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14233331B1DBEB8001BD3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C14233181B1DBEB8001BD3DF = {
+			isa = PBXGroup;
+			children = (
+				C14233231B1DBEB8001BD3DF /* IphoneWeddingApp */,
+				C14233391B1DBEB8001BD3DF /* IphoneWeddingAppTests */,
+				C14233221B1DBEB8001BD3DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C14233221B1DBEB8001BD3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */,
+				C14233361B1DBEB8001BD3DF /* IphoneWeddingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C14233231B1DBEB8001BD3DF /* IphoneWeddingApp */ = {
+			isa = PBXGroup;
+			children = (
+				C14233261B1DBEB8001BD3DF /* AppDelegate.swift */,
+				C14233281B1DBEB8001BD3DF /* ViewController.swift */,
+				C142332A1B1DBEB8001BD3DF /* Main.storyboard */,
+				C142332D1B1DBEB8001BD3DF /* Images.xcassets */,
+				C142332F1B1DBEB8001BD3DF /* LaunchScreen.xib */,
+				C14233241B1DBEB8001BD3DF /* Supporting Files */,
+			);
+			path = IphoneWeddingApp;
+			sourceTree = "<group>";
+		};
+		C14233241B1DBEB8001BD3DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14233251B1DBEB8001BD3DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C14233391B1DBEB8001BD3DF /* IphoneWeddingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C142333C1B1DBEB8001BD3DF /* IphoneWeddingAppTests.swift */,
+				C142333A1B1DBEB8001BD3DF /* Supporting Files */,
+			);
+			path = IphoneWeddingAppTests;
+			sourceTree = "<group>";
+		};
+		C142333A1B1DBEB8001BD3DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C142333B1B1DBEB8001BD3DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C14233201B1DBEB8001BD3DF /* IphoneWeddingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14233401B1DBEB8001BD3DF /* Build configuration list for PBXNativeTarget "IphoneWeddingApp" */;
+			buildPhases = (
+				C142331D1B1DBEB8001BD3DF /* Sources */,
+				C142331E1B1DBEB8001BD3DF /* Frameworks */,
+				C142331F1B1DBEB8001BD3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IphoneWeddingApp;
+			productName = IphoneWeddingApp;
+			productReference = C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C14233351B1DBEB8001BD3DF /* IphoneWeddingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14233431B1DBEB8001BD3DF /* Build configuration list for PBXNativeTarget "IphoneWeddingAppTests" */;
+			buildPhases = (
+				C14233321B1DBEB8001BD3DF /* Sources */,
+				C14233331B1DBEB8001BD3DF /* Frameworks */,
+				C14233341B1DBEB8001BD3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C14233381B1DBEB8001BD3DF /* PBXTargetDependency */,
+			);
+			name = IphoneWeddingAppTests;
+			productName = IphoneWeddingAppTests;
+			productReference = C14233361B1DBEB8001BD3DF /* IphoneWeddingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C14233191B1DBEB8001BD3DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ChristopherFrida;
+				TargetAttributes = {
+					C14233201B1DBEB8001BD3DF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C14233351B1DBEB8001BD3DF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C14233201B1DBEB8001BD3DF;
+					};
+				};
+			};
+			buildConfigurationList = C142331C1B1DBEB8001BD3DF /* Build configuration list for PBXProject "IphoneWeddingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C14233181B1DBEB8001BD3DF;
+			productRefGroup = C14233221B1DBEB8001BD3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C14233201B1DBEB8001BD3DF /* IphoneWeddingApp */,
+				C14233351B1DBEB8001BD3DF /* IphoneWeddingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C142331F1B1DBEB8001BD3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */,
+				C14233311B1DBEB8001BD3DF /* LaunchScreen.xib in Resources */,
+				C142332E1B1DBEB8001BD3DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14233341B1DBEB8001BD3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C142331D1B1DBEB8001BD3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */,
+				C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14233321B1DBEB8001BD3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C142333D1B1DBEB8001BD3DF /* IphoneWeddingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C14233381B1DBEB8001BD3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C14233201B1DBEB8001BD3DF /* IphoneWeddingApp */;
+			targetProxy = C14233371B1DBEB8001BD3DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C142332A1B1DBEB8001BD3DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C142332B1B1DBEB8001BD3DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C142332F1B1DBEB8001BD3DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14233301B1DBEB8001BD3DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C142333E1B1DBEB8001BD3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C142333F1B1DBEB8001BD3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C14233411B1DBEB8001BD3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IphoneWeddingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C14233421B1DBEB8001BD3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IphoneWeddingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C14233441B1DBEB8001BD3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IphoneWeddingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IphoneWeddingApp.app/IphoneWeddingApp";
+			};
+			name = Debug;
+		};
+		C14233451B1DBEB8001BD3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IphoneWeddingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IphoneWeddingApp.app/IphoneWeddingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C142331C1B1DBEB8001BD3DF /* Build configuration list for PBXProject "IphoneWeddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C142333E1B1DBEB8001BD3DF /* Debug */,
+				C142333F1B1DBEB8001BD3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14233401B1DBEB8001BD3DF /* Build configuration list for PBXNativeTarget "IphoneWeddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14233411B1DBEB8001BD3DF /* Debug */,
+				C14233421B1DBEB8001BD3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C14233431B1DBEB8001BD3DF /* Build configuration list for PBXNativeTarget "IphoneWeddingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14233441B1DBEB8001BD3DF /* Debug */,
+				C14233451B1DBEB8001BD3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C14233191B1DBEB8001BD3DF /* Project object */;
+}
