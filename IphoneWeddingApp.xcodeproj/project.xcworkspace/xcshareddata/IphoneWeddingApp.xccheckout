@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FE0FB71F-6A3E-4D54-9ECB-18D39F13E781</string>
 	<key>IDESourceControlProjectName</key>
-	<string>IphoneWeddingApp</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>469E3AD864A88DE8EF33FC9B56299B5775297D3C</key>
 		<string>https://github.com/chvis002/IphoneWeddingApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IphoneWeddingApp.xcodeproj</string>
+	<string>IphoneWeddingApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>469E3AD864A88DE8EF33FC9B56299B5775297D3C</key>
