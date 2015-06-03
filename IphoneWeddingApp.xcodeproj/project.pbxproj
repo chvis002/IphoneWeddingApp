@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C132388C1B1F91560006F187 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132388B1B1F91560006F187 /* MapViewController.swift */; };
 		C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233261B1DBEB8001BD3DF /* AppDelegate.swift */; };
 		C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233281B1DBEB8001BD3DF /* ViewController.swift */; };
 		C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C142332A1B1DBEB8001BD3DF /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C132388B1B1F91560006F187 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneWeddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14233251B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14233261B1DBEB8001BD3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				C14233261B1DBEB8001BD3DF /* AppDelegate.swift */,
 				C14233281B1DBEB8001BD3DF /* ViewController.swift */,
+				C132388B1B1F91560006F187 /* MapViewController.swift */,
 				C142332A1B1DBEB8001BD3DF /* Main.storyboard */,
 				C142332D1B1DBEB8001BD3DF /* Images.xcassets */,
 				C142332F1B1DBEB8001BD3DF /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */,
+				C132388C1B1F91560006F187 /* MapViewController.swift in Sources */,
 				C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				C14233421B1DBEB8001BD3DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C14233431B1DBEB8001BD3DF /* Build configuration list for PBXNativeTarget "IphoneWeddingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				C14233451B1DBEB8001BD3DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
