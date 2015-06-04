@@ -24,6 +24,15 @@ class ContactUsController: UIViewController {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //not working...
+        messageText.layer.borderWidth = 1.0
+        messageText.layer.cornerRadius = 5
+        messageText.clipsToBounds = true
+   //     var color = UIColor(white: 50, alpha: 1.0) as! UIColor
+        var color = UIColor(red: 100, green: 0, blue: 100, alpha: 1.0) as! UIColor
+        messageText.layer.borderColor = color.CGColor
+        
     }
     
     override func didReceiveMemoryWarning() {
