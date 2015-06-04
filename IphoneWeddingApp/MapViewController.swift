@@ -16,7 +16,8 @@ class MapViewController: UIViewController {
     
     let initialLocation = CLLocation(latitude: 58.369521, longitude: 15.724973)
     
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 2000
+    
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
             regionRadius * 2.0, regionRadius * 2.0)
@@ -26,6 +27,31 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         centerMapOnLocation(initialLocation)
+        
+        //let location = CLLocationCoordinate2D(latitude: 58.369521, longitude:15.724973)
+        
+        //let span = MKCoordinateSpanMake(0.05, 0.05)
+        //let region = MKCoordinateRegionMake(location, span)
+        //mapView.setRegion(region, animated: true)
+        
+        
+        let annotationChurch = MKPointAnnotation()
+        annotationChurch.coordinate = CLLocationCoordinate2DMake(58.369521, 15.724973);
+        annotationChurch.title = "Landeryds kyrka"
+        annotationChurch.subtitle = "Här ska vi gifta oss 14:30"
+        
+        
+        mapView.addAnnotation(annotationChurch)
+        
+        let annotationParty = MKPointAnnotation()
+        annotationParty.coordinate = CLLocationCoordinate2DMake(58.378309, 15.715126)
+        annotationParty.title = "Landeryds hembygdsgård"
+        annotationParty.subtitle = "Här är festen senare!"
+        
+        mapView.addAnnotation(annotationParty)
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }
