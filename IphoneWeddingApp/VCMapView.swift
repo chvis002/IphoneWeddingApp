@@ -28,8 +28,11 @@ extension MapViewController: MKMapViewDelegate {
                 view.calloutOffset = CGPoint(x: -5, y: 5)
             
                 let image = UIImage(named: "Directions-icon.jpg") as UIImage?
-                let button = UIButton.buttonWithType(.DetailDisclosure) as! UIButton
-                button.setImage(image, forState: .Normal)
+                
+                let button = UIButton.buttonWithType(.System) as! UIButton
+                button.frame = CGRectMake(25, 25, 25, 25)
+                
+                button.setBackgroundImage(image, forState: .Normal)
                 
                 view.rightCalloutAccessoryView = button as! UIView
                 
