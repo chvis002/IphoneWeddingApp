@@ -12,6 +12,7 @@
 		C139718E1B2045D00072E362 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139718D1B2045D00072E362 /* JSON.swift */; };
 		C13971901B2048C20072E362 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139718F1B2048C20072E362 /* VCMapView.swift */; };
 		C13971921B2049420072E362 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13971911B2049420072E362 /* Artwork.swift */; };
+		C13971961B2079DE0072E362 /* Directions-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C13971951B2079DE0072E362 /* Directions-icon.jpg */; };
 		C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233261B1DBEB8001BD3DF /* AppDelegate.swift */; };
 		C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233281B1DBEB8001BD3DF /* ViewController.swift */; };
 		C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C142332A1B1DBEB8001BD3DF /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		C139718D1B2045D00072E362 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		C139718F1B2048C20072E362 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		C13971911B2049420072E362 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		C13971951B2079DE0072E362 /* Directions-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Directions-icon.jpg"; sourceTree = "<group>"; };
 		C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneWeddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14233251B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14233261B1DBEB8001BD3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		C14233181B1DBEB8001BD3DF = {
 			isa = PBXGroup;
 			children = (
+				C13971951B2079DE0072E362 /* Directions-icon.jpg */,
 				C14233231B1DBEB8001BD3DF /* IphoneWeddingApp */,
 				C14233391B1DBEB8001BD3DF /* IphoneWeddingAppTests */,
 				C14233221B1DBEB8001BD3DF /* Products */,
@@ -209,6 +212,7 @@
 			files = (
 				C139718C1B203F2F0072E362 /* PublicArt.json in Resources */,
 				C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */,
+				C13971961B2079DE0072E362 /* Directions-icon.jpg in Resources */,
 				C14233311B1DBEB8001BD3DF /* LaunchScreen.xib in Resources */,
 				C142332E1B1DBEB8001BD3DF /* Images.xcassets in Resources */,
 			);
