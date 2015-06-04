@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C132388C1B1F91560006F187 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132388B1B1F91560006F187 /* MapViewController.swift */; };
+		C139718C1B203F2F0072E362 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = C139718B1B203F2F0072E362 /* PublicArt.json */; };
+		C139718E1B2045D00072E362 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139718D1B2045D00072E362 /* JSON.swift */; };
 		C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233261B1DBEB8001BD3DF /* AppDelegate.swift */; };
 		C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233281B1DBEB8001BD3DF /* ViewController.swift */; };
 		C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C142332A1B1DBEB8001BD3DF /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		C132388B1B1F91560006F187 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C139718B1B203F2F0072E362 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		C139718D1B2045D00072E362 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneWeddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14233251B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14233261B1DBEB8001BD3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		C14233231B1DBEB8001BD3DF /* IphoneWeddingApp */ = {
 			isa = PBXGroup;
 			children = (
+				C139718D1B2045D00072E362 /* JSON.swift */,
 				C14233261B1DBEB8001BD3DF /* AppDelegate.swift */,
 				C14233281B1DBEB8001BD3DF /* ViewController.swift */,
 				C132388B1B1F91560006F187 /* MapViewController.swift */,
@@ -93,6 +98,7 @@
 		C14233241B1DBEB8001BD3DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C139718B1B203F2F0072E362 /* PublicArt.json */,
 				C14233251B1DBEB8001BD3DF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C139718C1B203F2F0072E362 /* PublicArt.json in Resources */,
 				C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */,
 				C14233311B1DBEB8001BD3DF /* LaunchScreen.xib in Resources */,
 				C142332E1B1DBEB8001BD3DF /* Images.xcassets in Resources */,
@@ -218,6 +225,7 @@
 				C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */,
 				C132388C1B1F91560006F187 /* MapViewController.swift in Sources */,
 				C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */,
+				C139718E1B2045D00072E362 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
