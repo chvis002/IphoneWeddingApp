@@ -14,7 +14,7 @@ class MapViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     
-    let regionRadius: CLLocationDistance = 2000
+    let regionRadius: CLLocationDistance = 1000
     let initialLocation = CLLocation(latitude: 58.369521, longitude: 15.724973)
     
     func centerMapOnLocation(location: CLLocation) {
@@ -45,11 +45,18 @@ class MapViewController: UIViewController {
         */
         
         
-            let artwork = Artwork(title: "Landeryds hembygdsgård", locationName: "Här är festen senare!",
+            let annotationParty = Artwork(title: "Landeryds hembygdsgård", locationName: "Här är festen senare!",
               discipline: "discipline", coordinate: CLLocationCoordinate2D(latitude: 58.378309,
-                longitude: 15.724973))
-            mapView.addAnnotation(artwork)
+                longitude: 15.715126))
+            mapView.addAnnotation(annotationParty)
         
+        let annotationChurch = Artwork(title: "Landeryds kyrka", locationName: "Här ska vi gifta oss 14:30",
+            discipline: "discipline", coordinate: CLLocationCoordinate2D(latitude: 58.369521,
+                longitude: 15.724973))
+        
+        mapView.addAnnotation(annotationChurch)
+        mapView.selectAnnotation(annotationChurch, animated: true) // select annotation by default
+
         
         
         // Do any additional setup after loading the view.
