@@ -43,14 +43,20 @@ class MapViewController: UIViewController {
         
         mapView.addAnnotation(annotationChurch)
         
+        /*
         let annotationParty = MKPointAnnotation()
         annotationParty.coordinate = CLLocationCoordinate2DMake(58.378309, 15.715126)
         annotationParty.title = "Landeryds hembygdsgård"
         annotationParty.subtitle = "Här är festen senare!"
-        
         mapView.addAnnotation(annotationParty)
         
+        */
         
+        
+            let artwork = Artwork(title: "Landeryds hembygdsgård", locationName: "Här är festen senare!",
+              discipline: "discipline", coordinate: CLLocationCoordinate2D(latitude: 58.378309,
+                longitude: 15.724973))
+            mapView.addAnnotation(artwork)
         
 
         // Do any additional setup after loading the view.
