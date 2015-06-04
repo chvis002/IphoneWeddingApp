@@ -11,33 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    
-    @IBOutlet weak var randomLabel: UILabel!
-    
-    @IBOutlet weak var showButton: UIButton!
-    @IBOutlet weak var hideButton: UIButton!
-    
-    
-    
-    @IBAction func showAction(sender: UIButton) {
-        
-        randomLabel.hidden=false
-        
-    }
-    
-    
-    
-    @IBAction func hideActuib(sender: UIButton) {
-        
-        randomLabel.hidden = true
-        
-        
-    }
-    
+  
     
     override func viewDidLoad() {
         
-        randomLabel.hidden = true
+      
         
         
         

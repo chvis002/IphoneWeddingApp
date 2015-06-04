@@ -13,6 +13,7 @@
 		C13971901B2048C20072E362 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139718F1B2048C20072E362 /* VCMapView.swift */; };
 		C13971921B2049420072E362 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13971911B2049420072E362 /* Artwork.swift */; };
 		C13971961B2079DE0072E362 /* Directions-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C13971951B2079DE0072E362 /* Directions-icon.jpg */; };
+		C13971981B20DE0A0072E362 /* ContactUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13971971B20DE0A0072E362 /* ContactUsController.swift */; };
 		C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233261B1DBEB8001BD3DF /* AppDelegate.swift */; };
 		C14233291B1DBEB8001BD3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14233281B1DBEB8001BD3DF /* ViewController.swift */; };
 		C142332C1B1DBEB8001BD3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C142332A1B1DBEB8001BD3DF /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		C139718F1B2048C20072E362 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		C13971911B2049420072E362 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		C13971951B2079DE0072E362 /* Directions-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Directions-icon.jpg"; sourceTree = "<group>"; };
+		C13971971B20DE0A0072E362 /* ContactUsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsController.swift; sourceTree = "<group>"; };
 		C14233211B1DBEB8001BD3DF /* IphoneWeddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneWeddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14233251B1DBEB8001BD3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14233261B1DBEB8001BD3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				C14233281B1DBEB8001BD3DF /* ViewController.swift */,
 				C139718F1B2048C20072E362 /* VCMapView.swift */,
 				C13971911B2049420072E362 /* Artwork.swift */,
+				C13971971B20DE0A0072E362 /* ContactUsController.swift */,
 				C132388B1B1F91560006F187 /* MapViewController.swift */,
 				C142332A1B1DBEB8001BD3DF /* Main.storyboard */,
 				C142332D1B1DBEB8001BD3DF /* Images.xcassets */,
@@ -236,6 +239,7 @@
 				C132388C1B1F91560006F187 /* MapViewController.swift in Sources */,
 				C13971901B2048C20072E362 /* VCMapView.swift in Sources */,
 				C14233271B1DBEB8001BD3DF /* AppDelegate.swift in Sources */,
+				C13971981B20DE0A0072E362 /* ContactUsController.swift in Sources */,
 				C13971921B2049420072E362 /* Artwork.swift in Sources */,
 				C139718E1B2045D00072E362 /* JSON.swift in Sources */,
 			);
